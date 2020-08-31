@@ -1,7 +1,242 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="036f62e3-00c6-4bd6-b1ed-0d2564c2f6da" name="Default Changelist" comment="" />
+    <list default="true" id="036f62e3-00c6-4bd6-b1ed-0d2564c2f6da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/admin/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin/admin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lastupdate.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/default_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/default_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/admin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/adminui.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/app.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/beego.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/config/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/config/fake.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/config/ini.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/config/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/acceptencoder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/input.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/output.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/param/conv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/param/methodparams.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/param/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/param/parsers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/renderer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/context/response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/flash.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/fs.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/grace/grace.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/grace/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/hooks.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/accesslog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/conn.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/console.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/jianliao.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/log.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/logger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/multifile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/slack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/logs/smtp.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/mime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/namespace.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/parser.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/policy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/sess_cookie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/sess_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/sess_mem.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/sess_utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/session/session.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/staticfile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/templatefunc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/toolbox/healthcheck.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/toolbox/profile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/toolbox/statistics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/toolbox/task.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/caller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/debug.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/mail.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/rand.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/safemap.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/slice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/astaxie/beego/utils/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gopherjs/gopherjs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/gopherjs/gopherjs/js/js.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/gen_sym.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/gid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/id_pool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/stack_tags.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/stack_tags_js.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/jtolds/gls/stack_tags_main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/ansicolor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/ansicolor_ansi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/shiena/ansicolor/ansicolor_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/collections.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/equal_method.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/equality.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/filter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/go-render/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/go-render/render/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/go-render/render/render_time.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/any_of.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/contains.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/deep_equals.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/equals.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_or_equal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/greater_than.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/less_or_equal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/less_than.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/matcher.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/not.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/internal/oglematchers/transform_description.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/messages.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/panic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/quantity.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/serializer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/strings.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/time.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/assertions/type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/assertions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/convey.goconvey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/discovery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/gotest/utils.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/nilReporter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/console.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/dot.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/gotest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/printer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/problems.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/reporter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/reporting.goconvey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/reports.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/statistics.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/smartystreets/goconvey/convey/reporting/story.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/acme.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/autocert.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/cache.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/listener.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/autocert/renewal.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/jws.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/rfc8555.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/types.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/crypto/acme/version_go112.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/idna10.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/idna9.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/punycode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/tables10.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/tables11.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/tables9.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/trie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/net/idna/trieval.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/PATENTS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/secure/bidirule/bidirule.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/secure/bidirule/bidirule10.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/secure/bidirule/bidirule9.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/transform/transform.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/bidi.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/bracket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/core.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/prop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/tables10.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/tables9.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/bidi/trieval.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/composition.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/forminfo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/input.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/iter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/normalize.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/readwriter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/tables10.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/tables9.0.0.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/transform.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/golang.org/x/text/unicode/norm/trie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE.libyaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/parserc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlprivateh.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xiaomi.exe" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +259,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="280">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#14#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/admin.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -36,49 +283,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/admin/admin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/manager/edit.html">
+        <entry file="file://$PROJECT_DIR$/models/core.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#16#123#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/manager/add.html">
+        <entry file="file://$PROJECT_DIR$/conf/app.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/public/page_nav.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/admin/manager/index.html">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/public/page_aside.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+            <state relative-caret-position="364">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -88,12 +324,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="C:\Go" />
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.9/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
@@ -104,10 +343,7 @@
         <option value="$PROJECT_DIR$/controllers/main.go" />
         <option value="$PROJECT_DIR$/views/admin/login.html" />
         <option value="$PROJECT_DIR$/controllers/admin.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/routers/admin.go" />
-        <option value="$PROJECT_DIR$/conf/app.conf" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/views/admin/edit.html" />
         <option value="$PROJECT_DIR$/views/admin/index.html" />
         <option value="$PROJECT_DIR$/views/admin/success.html" />
@@ -118,6 +354,10 @@
         <option value="$PROJECT_DIR$/views/admin/manager/add.html" />
         <option value="$PROJECT_DIR$/views/admin/manager/edit.html" />
         <option value="$PROJECT_DIR$/views/admin/manager/index.html" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
+        <option value="$PROJECT_DIR$/models/core.go" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -127,12 +367,14 @@
     <option name="width" value="1935" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,66 +385,18 @@
             <path>
               <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
             <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiaomi" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -211,9 +405,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;redshift" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -242,9 +437,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1519806" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14102565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,21 +453,22 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32446808" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32376578" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32981315" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6cc4626b-ca14-416d-8fa8-72c0c03e7a7d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6cc4626b-ca14-416d-8fa8-72c0c03e7a7d/console.sql" />
     <entry file="file://$PROJECT_DIR$/vendor/github.com/astaxie/beego/controller.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -290,20 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/default.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -314,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/admin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/edit.html" />
     <entry file="file://$PROJECT_DIR$/views/admin/success.html" />
     <entry file="file://$PROJECT_DIR$/views/admin/add.go" />
@@ -328,20 +504,6 @@
     <entry file="file://$PROJECT_DIR$/views/admin/index.html" />
     <entry file="file://$PROJECT_DIR$/views/admin/login.html" />
     <entry file="file://$PROJECT_DIR$/views/admin/add.html" />
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/admin/admin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/manager/edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -370,6 +532,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/admin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin/admin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/core.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,7 +12,7 @@ func init() {
 		//beego.NSBefore(func(ctx *context.Context) {
 		//	fmt.Println("this is admin")
 		//}),
-		beego.NSRouter("/login",&admin.AdminController{}),
+		beego.NSRouter("/login", &admin.AdminController{}),
 		beego.NSNamespace("/manager",
 			beego.NSInclude(
 				&admin.AdminController{},
