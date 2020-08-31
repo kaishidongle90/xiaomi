@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
@@ -16,6 +17,6 @@ func init() {
 
 	DB, err = gorm.Open("mysql", mysqladmin+":"+mysqlpwd+"@/"+mysqldb+"?charset=utf8&parseTime=True&loc=Local")
 	if err != nil {
-		beego.Error(err)
+		fmt.Println("链接mysql数据库失败")
 	}
 }

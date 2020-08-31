@@ -8,15 +8,6 @@ type AdminController struct {
 	beego.Controller
 }
 
-func (this *AdminController) Get() {
-	this.TplName = "admin/manager/login.html"
-}
-
-// @router /kai [get]
-func (this *AdminController) Index() {
-	this.TplName = "admin/manager/login.html"
-}
-
 // @router / [get]
 func (this *AdminController) Manager() {
 	this.TplName = "admin/manager/index.html"

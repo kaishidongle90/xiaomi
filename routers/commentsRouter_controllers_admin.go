@@ -34,13 +34,4 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"],
-        beego.ControllerComments{
-            Method: "Index",
-            Router: `/kai`,
-            AllowHTTPMethods: []string{"get"},
-            MethodParams: param.Make(),
-            Filters: nil,
-            Params: nil})
-
 }
