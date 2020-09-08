@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"],
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"],
         beego.ControllerComments{
             Method: "Manager",
             Router: `/`,
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"],
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"],
         beego.ControllerComments{
             Method: "Add",
             Router: `/add`,
@@ -25,11 +25,74 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:AdminController"],
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"],
+        beego.ControllerComments{
+            Method: "DoAdd",
+            Router: `/add`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:ManagerController"],
         beego.ControllerComments{
             Method: "Edit",
             Router: `/edit`,
             AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "Get",
+            Router: `/`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "Add",
+            Router: `/add`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "DoAdd",
+            Router: `/add`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "Delete",
+            Router: `/delete`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "Edit",
+            Router: `/edit`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "DoEdit",
+            Router: `/edit`,
+            AllowHTTPMethods: []string{"post"},
             MethodParams: param.Make(),
             Filters: nil,
             Params: nil})
