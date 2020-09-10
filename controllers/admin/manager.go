@@ -13,7 +13,7 @@ type ManagerController struct {
 // @router / [get]
 func (this *ManagerController) Manager() {
 	managerList := []models.Manager{}
-	models.DB.Preload("Role").Find(&managerList)
+	models.DB.Debug().Preload("Role").Find(&managerList)
 	this.Data["managerList"] = managerList
 	this.TplName = "admin/manager/index.html"
 }
@@ -69,5 +69,79 @@ func (this *ManagerController) DoAdd()  {
 
 // @router /edit [get]
 func (this *ManagerController) Edit() {
+	adminId, err := this.GetInt("id")
+	if err != nil{
+		this.Error("获取ID失败","/admin/manager")
+		return
+	}
+	manager := models.Manager{Id:adminId}
+	models.DB.First(&manager,adminId)
+	this.Data["manager"] = manager
+
+	//获取所有的角色
+	role := []models.Role{}
+	models.DB.Find(&role)
+	this.Data["roleList"] = role
+
 	this.TplName = "admin/manager/edit.html"
+
+}
+
+
+// @router /edit [post]
+func (this *ManagerController) DoEdit() {
+	id, err := this.GetInt("id")
+	if err != nil{
+		this.Error("获取ID失败","/admin/manager")
+		return
+	}
+	roleId, err2 := this.GetInt("role_id")
+	if err2 != nil {
+		this.Error("非法请求", "/amin/manager")
+		return
+	}
+
+	mobile := strings.Trim(this.GetString("mobile"), " ")
+	email := strings.Trim(this.GetString("email"), " ")
+	password := strings.Trim(this.GetString("password"), " ")
+
+	//获取数据
+	manager := models.Manager{Id: id}
+	models.DB.Find(&manager)
+	manager.RoleId = roleId
+	manager.Mobile,_ = strconv.Atoi(mobile) //atoi: ascii to intege
+	manager.Email = email
+	if password != "" {
+		if len(password) < 6 {
+			this.Error("密码长度不合法,密码长度不能小于6位", "/manager/edit?id="+strconv.Itoa(id))
+			return
+		}
+		manager.Password = models.Md5(password)
+	}
+	//执行修改
+	err1 := models.DB.Save(&manager).Error
+	if err1 != nil {
+		this.Error("修改数据失败", "/admin/manager/edit?id="+strconv.Itoa(id))
+	} else {
+		this.Success("修改数据成功", "/admin/manager")
+	}
+
+}
+
+
+// @router /delete [get]
+func (this *ManagerController) Delete() {
+	id, err := this.GetInt("id")
+	if err != nil{
+		this.Error("获取ID失败","/admin/manager")
+		return
+	}
+	manager := models.Manager{Id: id}
+	err1 := models.DB.Delete(&manager).Error
+	if err1 != nil {
+		this.Error("删除数据失败", "/admin/manager")
+	} else {
+		this.Success("删除数据成功", "/admin/manager")
+	}
+
 }

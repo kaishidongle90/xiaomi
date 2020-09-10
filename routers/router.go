@@ -26,6 +26,11 @@ func init() {
 				&admin.RoleController{},
 			),
 		),
+		beego.NSNamespace("/access",
+			beego.NSInclude(
+				&admin.AccessController{},
+			),
+		),
 	)
 	beego.AddNamespace(ns)
 }

@@ -14,7 +14,7 @@ type Manager struct {
 	RoleId   int
 	AddTime  int
 	IsSuper  int
-	Role     Role `gorm:"foreignkey:Id;association_foreignkey:RoleId"`
+	Role     Role `gorm:"foreignkey:RoleId"`
 }
 
 func (Manager) TableName() string {
