@@ -144,6 +144,24 @@ func init() {
 
     beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
         beego.ControllerComments{
+            Method: "Auth",
+            Router: `/auth`,
+            AllowHTTPMethods: []string{"get"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
+            Method: "DoAuth",
+            Router: `/auth`,
+            AllowHTTPMethods: []string{"post"},
+            MethodParams: param.Make(),
+            Filters: nil,
+            Params: nil})
+
+    beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"] = append(beego.GlobalControllerRouter["xiaomi/controllers/admin:RoleController"],
+        beego.ControllerComments{
             Method: "Delete",
             Router: `/delete`,
             AllowHTTPMethods: []string{"get"},

@@ -16,6 +16,7 @@ func init() {
 		beego.NSRouter("/welcome",&admin.MainController{},"get:Welcome"),
 		beego.NSRouter("/login", &admin.LoginController{}),
 		beego.NSRouter("/login/doLogin", &admin.LoginController{},"post:DoLogin"),
+		beego.NSRouter("/exit", &admin.LoginController{},"get:LoginOut"),
 		beego.NSNamespace("/manager",
 			beego.NSInclude(
 				&admin.ManagerController{},
@@ -31,6 +32,7 @@ func init() {
 				&admin.AccessController{},
 			),
 		),
+		//beego.NSRouter("/auth", &admin.RoleController{},"get:Auth;post:DoAuth"),
 	)
 	beego.AddNamespace(ns)
 }

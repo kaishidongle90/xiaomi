@@ -55,3 +55,9 @@ func (c *LoginController) DoLogin() {
 		c.Error("验证码错误", "/"+beego.AppConfig.String("adminPath")+"/login")
 	}
 }
+
+
+func (c *LoginController) LoginOut() {
+	c.DelSession("userinfo")
+	c.Success("退出登录成功", "/admin/login")
+}
