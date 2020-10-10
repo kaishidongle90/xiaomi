@@ -12,7 +12,7 @@
                 <ul>
                     {{range $k,$v := $value.AccessItem}}
                         {{if eq $v.Type 2}}
-                            <li  class="list-group-item"> <a target="rightMain" href="/{{config "String" "adminPath" ""}}/{{$v.Url}}">{{$v.ActionName}}</a></li>
+                            <li  class="list-group-item"> <a target="rightMain" href="/{{config "String" "adminPath" ""}}{{$v.Url}}">{{$v.ActionName}}</a></li>
                         {{end}}
                     {{end}}
                 </ul>

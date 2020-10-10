@@ -45,7 +45,6 @@ func (c *LoginController) DoLogin() {
 		if len(manager) > 0 {
 			//登录成功 1、保存用户信息  2、跳转到后台管理系统
 			c.SetSession("userinfo", manager[0])
-
 			c.Success("登录成功", "/"+beego.AppConfig.String("adminPath"))
 		} else {
 			c.Error("用户名获取密码错误", "/"+beego.AppConfig.String("adminPath")+"/login")

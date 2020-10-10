@@ -19,7 +19,7 @@ func (c *MainController) Get() {
 
 		//2、获取全部的权限 (排序)，忘记的话参考：https://gorm.io/zh_CN/docs/preload.html
 		access := []models.Access{}
-		models.DB.Preload("AccessItem", func(db *gorm.DB) *gorm.DB {
+		models.DB.Debug().Preload("AccessItem", func(db *gorm.DB) *gorm.DB {
 			return db.Order("access.sort DESC")
 		}).Order("sort desc").Where("module_id=?", 0).Find(&access)
 
@@ -52,4 +52,58 @@ func (c *MainController) Get() {
 
 func (c *MainController) Welcome() {
 	c.TplName = "admin/main/welcome.html"
+}
+
+func (c *MainController) ChangeStatus() {
+	id, err := c.GetInt("id")
+	if err!=nil{
+		c.Data["json"] = map[string]interface{}{
+			"success": false,
+			"msg": "参数错误",
+		}
+		c.ServeJSON()
+		return
+	}
+	table := c.GetString("table")
+	field := c.GetString("field")
+	err2 := models.DB.Exec("update "+table+" set "+field+"=ABS("+field+"-1) where id=?", id).Error
+	if err2 != nil{
+		c.Data["json"] = map[string]interface{}{
+			"success": false,
+			"msg": "更新数据失败",
+		}
+		c.ServeJSON()
+		return
+	}else {
+		c.Data["json"] = map[string]interface{}{
+			"success": true,
+			"msg": "更新数据成功",
+		}
+		c.ServeJSON()
+		return
+	}
+}
+
+//修改数量的公共方法
+func (c *MainController) EditNum() {
+	id := c.GetString("id")
+	table := c.GetString("table")
+	field := c.GetString("field")
+	num := c.GetString("num")
+
+	err := models.DB.Exec("update " + table + " set " + field + "=" + num + " where id=" + id).Error
+
+	if err != nil {
+		c.Data["json"] = map[string]interface{}{
+			"success": false,
+			"message": "修改数量失败",
+		}
+		c.ServeJSON()
+	} else {
+		c.Data["json"] = map[string]interface{}{
+			"success": true,
+			"message": "修改数量成功",
+		}
+		c.ServeJSON()
+	}
 }

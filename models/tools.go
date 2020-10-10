@@ -29,6 +29,10 @@ func DateToUnix(str string) int64 {
 func GetUnix() int64 {
 	return time.Now().Unix()
 }
+
+func GetUnixNano() int64 {
+	return time.Now().UnixNano()
+}
 func GetDate() string {
 	template := "2006-01-02 15:04:05"
 	return time.Now().Format(template)
@@ -43,4 +47,8 @@ func Md5(str string) string {
 func Hello(in string) (out string) {
 	out = in + "world"
 	return
+}
+func GetDay() string {
+	template := "20060102"
+	return time.Now().Format(template)
 }
