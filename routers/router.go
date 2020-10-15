@@ -41,6 +41,7 @@ func init() {
 		beego.NSNamespace("/goodstype", beego.NSInclude(&admin.GoodsTypeController{})),
 		beego.NSNamespace("/goodstypeAttribute", beego.NSInclude(&admin.GoodsTypeAttrController{})),
 		beego.NSNamespace("/goods", beego.NSInclude(&admin.GoodsController{})),
+		beego.NSNamespace("/nav", beego.NSInclude(&admin.NavController{})),
 		//beego.NSRouter("/auth", &admin.RoleController{},"get:Auth;post:DoAuth"),
 		)
 	beego.AddNamespace(ns)
