@@ -24,7 +24,7 @@ func (c *GoodsController) Get()  {
 		page = 1
 	}
 	//每一页显示的数量
-	pageSize := 1
+	pageSize := 5
 
 	//实现搜索功能
 	keyword := c.GetString("keyword")
@@ -100,7 +100,21 @@ func (g *GoodsController) DoAdd(){
 	goodsColorStr := strings.Join(goodsColor, ",")
 
 	//3、上传图片   生成缩略图
-	goodsImg, _ := g.UploadImg("goods_img")
+	goodsImg, err2 := g.UploadImg("pic")
+	if err2 == nil && len(goodsImg) > 0 {
+		//goods.GoodsImg = goodsImg
+		//处理图片
+		//ossStatus, _ := beego.AppConfig.Bool("ossStatus")
+		if true {
+			wg.Add(1)
+			go func() {
+				models.ResizeImage(goodsImg)
+				wg.Done()
+			}()
+		}
+	}else {
+		fmt.Println(err2)
+	}
 
 	//4、增加商品数据
 	goods := models.Goods{
@@ -366,7 +380,15 @@ func (c *GoodsController) DoEdit() {
 	//3、上传图片   生成缩略图
 	goodsImg, err2 := c.UploadImg("goods_img")
 	if err2 == nil && len(goodsImg) > 0 {
-		goods.GoodsImg = goodsImg
+		//处理图片
+		//ossStatus, _ := beego.AppConfig.Bool("ossStatus")
+		if true {
+			wg.Add(1)
+			go func() {
+				models.ResizeImage(goodsImg)
+				wg.Done()
+			}()
+		}
 	}
 	//4、执行修改商品
 	err3 := models.DB.Save(&goods).Error

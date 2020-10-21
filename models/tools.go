@@ -3,8 +3,12 @@ package models
 import (
 	"crypto/md5"
 	"encoding/hex"
+	"fmt"
+	"path"
+	"strconv"
+	"strings"
 	"time"
-
+	. "github.com/hunterhug/go_image"
 	"github.com/astaxie/beego"
 )
 
@@ -51,4 +55,41 @@ func Hello(in string) (out string) {
 func GetDay() string {
 	template := "20060102"
 	return time.Now().Format(template)
+}
+
+func ResizeImage(filename string) {
+	extName := path.Ext(filename)
+	resizeImage := strings.Split(beego.AppConfig.String("resizeImageSize"),",")
+	for i:=0;i<len(resizeImage);i++{
+		width,_ := strconv.Atoi(resizeImage[i])
+		saveName := filename + "_" + resizeImage[i] + "*" + resizeImage[i] + extName
+		err := ThumbnailF2F(filename, saveName, width, width)
+		if err != nil {
+			fmt.Println("制作缩略图错误: ",err)
+		}
+	}
+}
+
+//格式化图片
+func FormatImg(picName string) string {
+	ossStatus, err := beego.AppConfig.Bool("ossStatus")
+	if err != nil {
+		//判断目录前面是否有/
+		flag := strings.Contains(picName, "/static")
+		if flag {
+			return picName
+		}
+		return "/" + picName
+	}
+	if ossStatus {
+		return beego.AppConfig.String("ossDomain") + "/" + picName
+	} else {
+		flag := strings.Contains(picName, "/static")
+		if flag {
+			return picName
+		}
+		return "/" + picName
+
+	}
+
 }

@@ -2,12 +2,11 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"xiaomi/controllers"
 	"xiaomi/controllers/admin"
 )
 
 func init() {
-	beego.Router("/", &controllers.MainController{})
+	//beego.Router("/", &controllers.MainController{})
 	beego.Router("/qr", &admin.QRCodeController{},"get:QR")
 	var ns = beego.NewNamespace("/admin",
 		//beego.NSBefore(func(ctx *context.Context) {

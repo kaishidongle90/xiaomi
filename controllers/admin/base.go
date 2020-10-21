@@ -2,6 +2,7 @@ package admin
 
 import (
 	"errors"
+	"fmt"
 	"github.com/astaxie/beego"
 	"os"
 	"path"
@@ -29,6 +30,7 @@ func (c *BaseController) UploadImg(picName string) (string, error) {
 	//1、获取上传的文件
 	f, h, err := c.GetFile(picName)
 	if err != nil {
+		fmt.Println("this is getfile nil")
 		return "", err
 	}
 	//2、关闭文件流
@@ -44,7 +46,6 @@ func (c *BaseController) UploadImg(picName string) (string, error) {
 	}
 
 	if _, ok := allowExtMap[extName]; !ok {
-
 		return "", errors.New("图片后缀名不合法")
 	}
 	//4、创建图片保存目录  static/upload/20200623
@@ -65,6 +66,9 @@ func (c *BaseController) UploadImg(picName string) (string, error) {
 	saveDir := path.Join(dir, fileUnixName+extName)
 	//6、保存图片
 	err = c.SaveToFile(picName, saveDir)
+	if err != nil{
+		fmt.Println("this is savetofile nil",err)
+	}
 
 	return saveDir, err
 }
