@@ -14,6 +14,7 @@ type Nav struct {
 	Sort      int
 	Status    int
 	AddTime   int
+	GoodsItem []Goods `gorm:"-"`
 }
 
 func (Nav) TableName() string {
