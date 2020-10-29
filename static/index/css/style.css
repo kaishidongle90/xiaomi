@@ -27,13 +27,13 @@ a{border:none;text-decoration: none;color:#000;}
 	content: "";
 	display: block;
 
-	
-	
+
+
 }
 
 
 /*header*/
-header{width: 100%;height: 40px;background: #333}
+header{width: 100%;height: 40px;background: #333;overflow: hidden;}
 header .top{width: 1226px;height: 40px;line-height: 40px;}
 header .top .left ul li{float: left;font-size: 12px;color: #ccc;}
 header .top .left ul li a{display:block;padding:0 8px;font-size: 12px;font-family: Times New Roman;color: #b0b0b0;}
@@ -58,14 +58,14 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 /*头部用户信息*/
 header .top .right ul li.userinfo{
 	position: relative;
-	width: 100px;	
+	width: 100px;
 	height: 30px;
 }
 
 
 header .top .right ul li.userinfo i{
 	position: absolute;
-	top:12px; 
+	top:12px;
 	right: 10px;
 	display: block;
 	width: 6px;
@@ -113,7 +113,7 @@ header .top .right ul li.userinfo ol li{
 	width: 100%;
 	height: 30px;
 	line-height: 30px;
-	text-align: center;	
+	text-align: center;
 }
 header .top .right ul li.userinfo ol li a{
 	color: #424242;
@@ -144,7 +144,7 @@ header .top .right ul li.userinfo ol li a:hover{
 	float: left;
 	text-align: center;
 	padding-top: 20px;
-	
+
 }
 .children-list li a{
 	display: inline-block;
@@ -169,35 +169,35 @@ header .top .right ul li.userinfo ol li a:hover{
 .banner_x .search .text .shuru{border: 1px solid #eee;width: 250px;height: 50px;}
 .banner_x .search .submit{width: 50px;height:50px;line-height: 50px;text-align:center;font-size: 12px;margin-top: 25px;border:1px solid #ccc;}
 .banner_x .search .submit .sousuo{letter-spacing:3px;text-align:center;width: 50px;height:50px;border: none;background: none;cursor:pointer;}
-.banner_x .search .submit:hover{border-color: #ff6700;color:#ff6700;} 
+.banner_x .search .submit:hover{border-color: #ff6700;color:#ff6700;}
 /*banner_y*/
 
 /*修改左侧分类*/
 .banner_y{
-	
-	width:1226px;	
+
+	width:1226px;
 	height:460px;
 	position: relative;
 
 }
 .banner_y .nav{
-	
+
 	width: 234px;
 	height: 460px;
-    background: rgba(12,12,19,0.8);
+	background: rgba(12,12,19,0.8);
 	position: absolute;
 	top:0px;
 	left: 0px;
 	z-index: 1000;
 }
 .banner_y .nav ul{padding: 20px 0;position:relative;}
-.banner_y .nav ul>li{	
+.banner_y .nav ul>li{
 	display: block;
 	width: 174px;
 	height: 40px;
 	line-height:40px;
 	font-size: 14px;
-	padding: 0 30px;	
+	padding: 0 30px;
 }
 .banner_y .nav ul>li:hover{
 	background: orange;
@@ -226,8 +226,8 @@ header .top .right ul li.userinfo ol li a:hover{
 
 .banner_x .nav ul>li.link-category{
 
-	padding-left: 40px;
-	width: 120px;
+	padding-left: 20px;
+	width: 140px;
 	position: relative;
 }
 
@@ -253,8 +253,8 @@ header .top .right ul li.userinfo ol li a:hover{
 .banner_y  .swiper-container {
 	width: 100%;
 	height: 100%;
-  }
- .banner_y  .swiper-slide {
+}
+.banner_y  .swiper-slide {
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
@@ -271,15 +271,15 @@ header .top .right ul li.userinfo ol li a:hover{
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
-  }
+}
 
-  .banner_y  .swiper-slide img{
+.banner_y  .swiper-slide img{
 	width:100%;
-  }
+}
 
-  .banner_y  .swiper-button-prev{
+.banner_y  .swiper-button-prev{
 	left: 246px!important;
-  }
+}
 /*修改轮播图*/
 
 .swiper-button-prev{
@@ -289,7 +289,7 @@ header .top .right ul li.userinfo ol li a:hover{
 }
 .swiper-button-next{
 	background:url("data:image/svg+xml;charset=utf-8,<svg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'><path%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23999999'%2F><%2Fsvg>") no-repeat left center!important;
-  
+	  
 }
 
 .swiper-pagination-bullet{
@@ -346,7 +346,7 @@ header .top .right ul li.userinfo ol li a:hover{
 	margin-bottom: 20px;
 }
 .search-filter .show-less li{
-	display: inline-block;	
+	display: inline-block;
 	padding:20px;
 }
 
@@ -408,8 +408,8 @@ header .top .right ul li.userinfo ol li a:hover{
 /*xiangqing*/
 .xiangqing{width: 100%;height: 58px;background: rgb(240,240,240);}
 .xiangqing .neirong{height: 58px;width: 1226px;}
-.xiangqing .neirong .xiaomi6{width:300px;height: 58px;line-height: 58px;font-size: 
-22px;font-weight: bold;}
+.xiangqing .neirong .xiaomi6{width:300px;height: 58px;line-height: 58px;font-size:
+		22px;font-weight: bold;}
 .xiangqing .neirong nav{display:inline-block;width: 410px;height: 58px;line-height: 58px;}
 .xiangqing .neirong nav li{font-size:14px;float: left;display: block;margin:0px 5px;}
 .xiangqing .neirong nav li a{color: #333;font-size: 14px;}
@@ -450,7 +450,7 @@ header .top .right ul li.userinfo ol li a:hover{
 	height: 80px;
 	width: 555px;
 	background: rgb(255,255,255);
-	padding:5px 10px; 
+	padding:5px 10px;
 	background: #fafafa;
 }
 /*是否下单*/
@@ -479,7 +479,7 @@ header .top .right ul li.userinfo ol li a:hover{
 .gwcxqbj .gwcxd .content2 .sub_content{width:50px;height: 120px;line-height:120px;margin-right: 0px;}
 .gwcxqbj .gwcxd .sub_content .quanxuan{width:18px;height:18px;border:1px solid #ccc;background: none;}
 .gwcxqbj .gwcxd .content2 .sub_content img{vertical-align: middle;}
-.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(1){margin-left: 30px;} 
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(1){margin-left: 30px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(2){margin-left: 35px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(3){margin-left: 55px;width: 330px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(4){margin-left: 55px;}
@@ -520,7 +520,7 @@ header .top .right ul li.userinfo ol li a:hover{
 .grzxbj .selfinfo .rtcont .subgrzl span a:hover{color:#ff6700; }
 
 /*订单中心*/
-.grzxbj .selfinfo .rtcont .ddxq{width: 938px;height: 120px;line-height: 120px;font-size: 17px;color:rgb(117,117,117); 
+.grzxbj .selfinfo .rtcont .ddxq{width: 938px;height: 120px;line-height: 120px;font-size: 17px;color:rgb(117,117,117);
 	border-bottom: 1px solid #ccc;padding-left: 40px;}
 .grzxbj .selfinfo .rtcont .ddxq .ddspt{width: 80px;height: 80px;margin: 19px 25px 0 0;border:1px solid #aaa;}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li{display: inline-block;width: 130px;height: 60px;line-height:60px;float: left;border-left:1px solid #aaa; margin-top: 30px;text-align: center;}

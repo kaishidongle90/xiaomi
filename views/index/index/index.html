@@ -5,18 +5,32 @@
         <ul>
             {{range $key,$value := .goodsCateList}}
                 <li>
+                    {{if eq $value.Link ""}}
+                        <a href="category_{{$value.Id}}.html" target="_blank">{{$value.Title}}</a>
+                    {{else}}
+                        <a href="{{$value.Link}}" target="_blank">{{$value.Title}}</a>
+                    {{end}}
 
-                    <a href="#">{{$value.Title}}</a>
                     <div class="pop">
                         <ol class="cate_list clear">
 
                             {{range $k,$v := $value.GoodsCateItem}}
                                 <li>
                                     <div class="xuangou_left">
-                                        <a href="#" class="clearfix">
-                                            <div class="img fl"><img src="{{$v.CateImg | formatImg}}" alt="{{$v.Title}}"></div>
-                                            <span class="fl">{{$v.Title}}</span>
-                                        </a>
+
+                                        {{if eq $v.Link ""}}
+
+                                            <a href="category_{{$v.Id}}.html" target="_blank" class="clearfix">
+                                                <div class="img fl"><img src="{{$v.CateImg | formatImg}}" alt="{{$v.Title}}"></div>
+                                                <span class="fl">{{$v.Title}}</span>
+                                            </a>
+                                        {{else}}
+                                            <a href="{{$v.Link}}" target="_blank" class="clearfix">
+                                                <div class="img fl"><img src="{{$v.CateImg | formatImg}}" alt="{{$v.Title}}"></div>
+                                                <span class="fl">{{$v.Title}}</span>
+                                            </a>
+                                        {{end}}
+
                                     </div>
 
                                 </li>
@@ -121,7 +135,7 @@
 
         <div class="category_item_left">
 
-            <img src="/static/index/image/shouji.jpg" alt="手机">
+            <img src="static/index/image/shouji.jpg" alt="手机">
         </div>
 
 

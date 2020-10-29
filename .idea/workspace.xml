@@ -2,163 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036f62e3-00c6-4bd6-b1ed-0d2564c2f6da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/upload/20200607/1591535381.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200608/1591582343.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200608/1591582355.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200608/1591582434.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200609/1591699484.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200609/1591700455.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200609/1591700507.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200609/1591701510.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200609/1591701952.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200613/1592055066.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200613/1592055155.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200613/1592055280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200613/1592055324.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592207983869073700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592207983913076200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592207983978079900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592207983987080400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208137846880700.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208137859881400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208278982953200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208279020955400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208279085959100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208325954639800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200615/1592208325958640100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592390443286032600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592390443443041600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592391685909106600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592391780837536200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592391780895539500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592391780954542900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592391786033833400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392306350593800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392306406597000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392307796676500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392494637363200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392494693366400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392495500412500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392823882194900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392823940198200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392824031203400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200617/1592392825009259400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592451255095283100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592451255139285600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592451914088975400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592451914176980400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592452463282387400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592452463330390200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200618/1592452490474942700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592799749938586100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592799749994589300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592799750042592100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592817126555431600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592817126614435000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592817126670438200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820040.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820040.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820111.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820244.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820244.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820331.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820331.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820494.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200622/1592820494.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200626/1593155653310289000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200626/1593155653329290100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200627/1593231907138689200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200627/1593234395400009600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200627/1593238742042623400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488894443396500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488894443396500.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488894443396500.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488894443396500.jpg_600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488970817764900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488970817764900.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488970817764900.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593488970817764900.jpg_600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163564789400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163564789400.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163564789400.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163564789400.jpg_600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163617792400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163617792400.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163617792400.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593489163617792400.jpg_600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593491834516559100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593491834516559100.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593491834516559100.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200630/1593508415890959500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200706/1593997980728604100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200706/1593997980728604100.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200706/1593997980728604100.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594088238093870100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594088379260944400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594089221653126500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594089287177874300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594089350990524100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594089381272256100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090045924272100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090045924272100.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090045924272100.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090301926914600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090301926914600.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090301926914600.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090379813369400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090379813369400.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594090379813369400.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/20200707/1594126183364215400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020223/1582463294.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020223/1582463357.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020223/1582464603.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582513945.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582513960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514113.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514289.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514318.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514664.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/2020224/1582514810.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/a_800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/aa.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/aa.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/aa.jpg_600x600.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/upload/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/index/base.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index/public/banner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/app.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/index/Index.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index/Index.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/goods.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/goods.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/nav.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/nav.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index/product.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index/product.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/index.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/index/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/index/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201003/1601701703.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201003/1601701777.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201003/1601708206.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201004/1601781385.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201004/1601781808111455000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201004/1601781808120359000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201004/1601788068164110000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201004/1601788068172870000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201005/1601864531718783000.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201005/1601864531740314000.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201005/1601867090662781000.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201016/1602840014771960000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603262960673686000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263145744314000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263248276790000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263569681685000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263676604205000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263770331802000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263967032867000.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263967032867000.png_200*200.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603263967032867000.png_400*400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603264593261351000.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603264593261351000.jpeg_200*200.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/upload/20201021/1603264593261351000.jpeg_400*400.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/product/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index/public/page_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index/public/page_header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xiaomi" beforeDir="false" afterPath="$PROJECT_DIR$/xiaomi" afterDir="false" />
     </list>
@@ -187,31 +41,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/index/Index.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="153">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
               <folding>
-                <element signature="e#15#70#0" expanded="true" />
+                <element signature="e#16#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/goodsCate.go">
+        <entry file="file://$PROJECT_DIR$/views/index/public/banner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="476">
+              <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/goods.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index/public/page_footer.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index/public/page_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            <state relative-caret-position="-192">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3377">
+              <caret line="529" column="131" selection-start-line="529" selection-start-column="131" selection-end-line="529" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/index.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="92" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="92" />
               <folding>
-                <element signature="e#16#54#0" expanded="true" />
+                <element signature="e#16#82#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,10 +97,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/index/product.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="128">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <element signature="e#14#52#0" expanded="true" />
+                <element signature="e#14#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/index/base.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#112#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index/product/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1063">
+              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -232,51 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="133" column="57" selection-start-line="133" selection-start-column="57" selection-end-line="133" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index/css/login.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/tools.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index/public/page_header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="51" column="49" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/nav.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/admin/goods.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
-              <caret line="380" column="44" selection-start-line="380" selection-start-column="44" selection-end-line="380" selection-end-column="44" />
+            <state relative-caret-position="319">
+              <caret line="50" column="45" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -287,8 +145,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -329,11 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controllers/admin/main.go" />
-        <option value="$PROJECT_DIR$/views/admin/focus/index.html" />
-        <option value="$PROJECT_DIR$/views/admin/access/index.html" />
-        <option value="$PROJECT_DIR$/models/goodsCate.go" />
-        <option value="$PROJECT_DIR$/views/admin/public/page_aside.html" />
         <option value="$PROJECT_DIR$/views/admin/goodsCate/edit.html" />
         <option value="$PROJECT_DIR$/views/admin/goodsCate/index.html" />
         <option value="$PROJECT_DIR$/views/admin/goodsCate/add.html" />
@@ -368,18 +221,23 @@
         <option value="$PROJECT_DIR$/views/admin/setting/index.html" />
         <option value="$PROJECT_DIR$/controllers/admin/setting.go" />
         <option value="$PROJECT_DIR$/controllers/admin/base.go" />
-        <option value="$PROJECT_DIR$/conf/app.conf" />
         <option value="$PROJECT_DIR$/controllers/admin/goods.go" />
         <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/models/tools.go" />
-        <option value="$PROJECT_DIR$/routers/index.go" />
-        <option value="$PROJECT_DIR$/controllers/index/product.go" />
         <option value="$PROJECT_DIR$/models/nav.go" />
+        <option value="$PROJECT_DIR$/models/goods.go" />
+        <option value="$PROJECT_DIR$/models/cache.go" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
+        <option value="$PROJECT_DIR$/views/index/index/index.html" />
+        <option value="$PROJECT_DIR$/routers/index.go" />
+        <option value="$PROJECT_DIR$/controllers/index/base.go" />
+        <option value="$PROJECT_DIR$/views/index/public/banner.html" />
+        <option value="$PROJECT_DIR$/static/index/css/style.css" />
         <option value="$PROJECT_DIR$/views/index/public/page_header.html" />
         <option value="$PROJECT_DIR$/controllers/index/Index.go" />
-        <option value="$PROJECT_DIR$/models/goods.go" />
-        <option value="$PROJECT_DIR$/views/index/index/index.html" />
+        <option value="$PROJECT_DIR$/views/index/product/list.html" />
+        <option value="$PROJECT_DIR$/controllers/index/product.go" />
       </list>
     </option>
   </component>
@@ -396,72 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="routers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="product" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -525,6 +317,93 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="conf" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="routers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="static" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="product" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="xiaomi" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/go/src/xiaomi" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="index" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -543,7 +422,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static/index" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -576,7 +455,7 @@
     <frame x="0" y="23" width="1680" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20818071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -648,57 +527,8 @@
     <proxy>https://goproxy.cn,direct</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/goodsType.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#16#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/admin/diyUpload/css/diyUpload.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload/20201004/1601781385.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/goodsAttr.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#16#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/goods/edit.go" />
-    <entry file="file://$PROJECT_DIR$/controllers/admin/goodsCate.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2268">
-          <caret line="84" column="48" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/astaxie/beego@v1.12.1/beego.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload/20201005/1601864531718783000.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload/20201005/1601864531740314000.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload/20201005/1601864531718783000.jpeg" />
+    <entry file="file://$PROJECT_DIR$/static/upload/20201005/1601864531740314000.jpeg" />
     <entry file="file://$PROJECT_DIR$/static/admin/js/jqPaginator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -835,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/goods/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -856,12 +679,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload/20201021/1603263967032867000.png_400*400.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/upload/20201021/1603264593261351000.jpeg_400*400.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/upload/20201021/1603263967032867000.png_400*400.png" />
+    <entry file="file://$PROJECT_DIR$/static/upload/20201021/1603264593261351000.jpeg_400*400.jpeg" />
     <entry file="file://$PROJECT_DIR$/controllers/admin/base.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="618">
@@ -902,9 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/product/list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -915,27 +731,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/public/page_footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/index.go">
+    <entry file="file://$PROJECT_DIR$/models/goodsCate.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/tools.go">
+    <entry file="file://$PROJECT_DIR$/../../pkg/mod/github.com/astaxie/beego@v1.12.2/cache/cache.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        <state relative-caret-position="188">
+          <caret line="54" column="62" selection-start-line="54" selection-start-column="62" selection-end-line="54" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/admin/goods.go">
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="380" column="44" selection-start-line="380" selection-start-column="44" selection-end-line="380" selection-end-column="44" />
+        <state relative-caret-position="5439">
+          <caret line="259" column="5" selection-start-line="259" selection-start-column="5" selection-end-line="259" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -946,58 +759,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin/goods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="380" column="44" selection-start-line="380" selection-start-column="44" selection-end-line="380" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tools.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/goods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+          <folding>
+            <element signature="e#16#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23793">
+          <caret line="1136" column="14" selection-start-line="1136" selection-start-column="14" selection-end-line="1136" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3377">
+          <caret line="529" column="131" selection-start-line="529" selection-start-column="131" selection-end-line="529" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/public/banner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/public/page_footer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/public/page_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/index.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="92" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="92" />
+          <folding>
+            <element signature="e#16#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/index/product.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="128">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <element signature="e#14#52#0" expanded="true" />
+            <element signature="e#14#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index/product/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/index/Index.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="153">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
           <folding>
-            <element signature="e#15#70#0" expanded="true" />
+            <element signature="e#16#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/public/page_header.html">
+    <entry file="file://$PROJECT_DIR$/controllers/index/base.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="133" column="57" selection-start-line="133" selection-start-column="57" selection-end-line="133" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/goodsCate.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/goods.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        <state relative-caret-position="22">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#16#54#0" expanded="true" />
+            <element signature="e#14#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
